@@ -1,0 +1,21 @@
+<html ng-app="my-app">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Components</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container" ng-controller="MainController as ctrl">
+        <h1>My Main Page</h1>
+        <my-component h1="ctrl.h1" me='ctrl.me' you="ctrl.you" num="ctrl.num"></my-component>
+    </div>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="app.js"></script>
+    <!--<script src="bower_components/angular/angular.js"></script>-->
+
+</body>
+
+</html>
