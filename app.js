@@ -8,7 +8,6 @@
             $('#butt').text('FGHJKL');
             setTimeout(function () {
                 $('#butt').text('Get Data');
-
             }, 1000)
         }
     }
